@@ -1,0 +1,13 @@
+.lined-textarea {
+  
+    background: url(http://i.imgur.com/2cOaJ.png);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    padding-top: 10px;
+    color: var(--color-text);
+    border-radius: 5px;
+    font-size: 13px;
+    line-height: 16px;
+    resize: none;
+  }

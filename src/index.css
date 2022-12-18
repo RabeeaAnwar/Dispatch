@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Open+Sans:ital,wght@0,300;0,400;1,500&display=swap');
+
+/* 
+:root {
+  --bg-body: #021420;
+  --bg-primary: #071426;
+  --color-primary: #92cbdf;
+} */
+
+:root {
+  --color-primary:#07C4E8;
+  --color-border:#c7e0ff;
+  --color-box-bg:#eff3f8;
+  --bg-primary:#eff3f8;
+  --bg-body:white; 
+  --color-text: #191919;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.dark-theme{
+  --color-border: #183e71;
+  --bg-primary:#030b17;
+  --bg-body:#061730;
+  --color-box-bg:#0b213f;
+  --color-text: #B6C4D6;
+ 
+}
+
+
+body {
+  margin: 0;
+  background: radial-gradient(circle,var(--bg-body),var(--bg-primary));
+  color: var(--color-text);
+}
+
+h1 {
+  font-family: 'Oleo Script', cursive;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--color-primary);
+  margin-left: 45%;
 }
